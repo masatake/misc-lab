@@ -1,0 +1,7 @@
+# yum -y install gcc kernel-devel-$(uname -r) kernel-headers-$(uname -r)
+# make
+# insmod log-level-test.ko
+# dmesg
+# cat /var/log/messages
+# rmmod log-level-test
+
